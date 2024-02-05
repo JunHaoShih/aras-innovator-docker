@@ -19,3 +19,17 @@ You can login to the Innovator instance using the default users "admin" or "root
 The Aras Innovator instance is available under the following link: http://localhost/innovator
 
 You can find more information on how to run Aras Innovator in Docker on my blog: [sebastianbeilmann.com/blog/aras-innovator-in-docker](https://www.sebastianbeilmann.com/blog/aras-innovator-in-docker/)
+
+## Aras update
+
+Install `Program Manager`
+
+Go to cmd and enter powershell
+
+```powershell
+.\ArasUpdateCmd.exe install PM -MODULES:IS -D:Innovator.Dir=C:\Innovator\Innovator
+```
+
+Go to `./ArasUpdate` and execute `ArasUpdate.exe`
+
+Install `Program Manager`
